@@ -6,6 +6,10 @@
 
 - Added `FastProcessor::into_parts()` to extract advice provider, memory, and precompile transcript after step-based execution ([#2901](https://github.com/0xMiden/miden-vm/pull/2901)).
 
+#### Fixes
+
+- Fixed stale `ReplayProcessor` doc comment links to `ExecutionTracer` after module-structure refactors.
+
 ## 0.22.0 (2025-03-18)
 
 #### Enhancements
